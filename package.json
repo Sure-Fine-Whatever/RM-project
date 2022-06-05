@@ -1,0 +1,29 @@
+{
+  "name": "rm-app",
+  "version": "1.0.0",
+  "description": "rm app project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "test",
+    "rmApp": "node --experimental-json-modules main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sure-Fine-Whatever/RM-project.git"
+  },
+  "author": "t.pavlovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sure-Fine-Whatever/RM-project/issues"
+  },
+  "homepage": "https://github.com/Sure-Fine-Whatever/RM-project#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dateformat": "^5.0.3",
+    "lodash": "^4.17.21",
+    "prompt-sync": "^4.2.0",
+    "rickmortyapi": "^1.0.0",
+    "write": "^2.0.0"
+  }
+}
